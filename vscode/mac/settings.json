@@ -1,0 +1,80 @@
+{
+    // font
+    "editor.fontFamily": "MapleMono-NF-CN-SemiBoldItalic",
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 14,
+    "editor.tabSize": 2,
+    // colorTheme
+    "workbench.colorTheme": "One Monokai",
+    // iconTheme
+    "workbench.iconTheme": "material-icon-theme",
+    // ui
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+    // background   
+    "background.enabled": true,
+    "background.fullscreen": {
+        "images": ["file:///Users/cxy/Documents/picture/WutheringWaves/background02.jpg"],
+        "opacity": 0.08,
+        "position": "center",
+        "size": "cover",
+    },
+
+    // format
+    "editor.defaultFormatter": "xaver.clang-format",
+
+    // markdown
+    "[markdown]": {
+        "diffEditor.ignoreTrimWhitespace": false
+    },
+
+    // luogu
+    "luogu.defaultLanguageVersion": {
+        "C++": "C++20 with O2"
+    },
+    "luogu.maxHistoryLength": 16,
+    "leetcode-problem-rating.workspaceFolder": "/Users/cxy/workspace/code/oj/lc",
+    "leetcode-problem-rating.cppCompiler": "clang",
+    "leetcode-problem-rating.defaultLanguage": "cpp",
+    "leetcode-problem-rating.filePath": {
+        "default": {
+            "folder": "",
+            "filename": "${id}.${kebab-case-name}.${ext}"
+        }
+    },
+    "leetcode-problem-rating.hint.configWebviewMarkdown": false,
+    "leetcode-problem-rating.hint.commandShortcut": false,
+    "leetcode-problem-rating.hint.commentDescription": false,
+    "leetcode-problem-rating.includeTemplates": [
+        {
+            "language": "cpp",
+            "template": [
+                "using namespace std;",
+                "#include <algorithm>",
+                "#include <array>",
+                "#include <bitset>",
+                "#include <climits>",
+                "#include <deque>",
+                "#include <functional>",
+                "#include <iostream>",
+                "#include <list>",
+                "#include <queue>",
+                "#include <stack>",
+                "#include <tuple>",
+                "#include <unordered_map>",
+                "#include <unordered_set>",
+                "#include <utility>",
+                "#include <vector>"
+            ]
+        }
+    ],
+    "clangd.fallbackFlags": [
+        "-std=c++23",
+    ],
+    "chat.commandCenter.enabled": false,
+    "chat.agent.enabled": false,
+    "chat.extensionTools.enabled": false,
+    "telemetry.feedback.enabled": false,
+    "remote.SSH.experimental.chat": false,
+    "workbench.settings.editor": "json",
+}
