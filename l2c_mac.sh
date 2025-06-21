@@ -9,3 +9,6 @@ cp ~/.config/starship.toml .
 
 # nvim
 cp -r ~/.config/nvim .
+
+# ghostty
+cp ~/.config/ghostty/config ./ghostty

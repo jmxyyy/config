@@ -1,11 +1,12 @@
 {
     // font
     "editor.fontFamily": "Maple Mono NF CN",
+    // "editor.fontWeight": "bold",
     "editor.fontSize": 15,
     "terminal.integrated.fontSize": 14,
     "editor.tabSize": 2,
     // colorTheme
-    "workbench.colorTheme": "One Monokai",
+    "workbench.colorTheme": "Atom One Dark",
     // iconTheme
     "workbench.iconTheme": "material-icon-theme",
     // ui
@@ -14,8 +15,8 @@
     // background   
     "background.enabled": true,
     "background.fullscreen": {
-        "images": ["file:///C:/Users/cxy/Pictures/background/background01.jpg"],
-        "opacity": 0.08,
+        "images": ["file:///C:/Users/cxy/Pictures/background/back02.png"],
+        "opacity": 0.1,
         "position": "center",
         "size": "cover",
     },

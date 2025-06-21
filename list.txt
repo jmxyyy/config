@@ -1,3 +1,6 @@
 vscode
 neovim
+zsh
+starship
 wezterm
+ghostty
