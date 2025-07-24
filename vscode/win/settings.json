@@ -2,7 +2,7 @@
     // font
     "editor.fontFamily": "Maple Mono NF CN",
     // "editor.fontWeight": "bold",
-    "editor.fontSize": 15,
+    "editor.fontSize": 16,
     "terminal.integrated.fontSize": 14,
     "editor.tabSize": 2,
     // colorTheme
@@ -78,4 +78,16 @@
     "telemetry.feedback.enabled": false,
     "remote.SSH.experimental.chat": false,
     "workbench.settings.editor": "json",
+    "remote.SSH.remotePlatform": {
+        "wsl.localhost": "linux"
+    },
+    "python.analysis.typeCheckingMode": "standard",
+    "roo-cline.allowedCommands": [
+        "npm test",
+        "npm install",
+        "tsc",
+        "git log",
+        "git diff",
+        "git show"
+    ],
 }

@@ -115,7 +115,7 @@ disabled = false
 symbol = " rust "
 style = "bg: green"
 version_format = 'v${major}.${minor}'
-format = '[[[$symbol($version)](fg:crust bg:green)]($style)'
+format = '[[$symbol($version)](fg:crust bg:green)]($style)'
 
 [python]
 symbol = " py "
